@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=false": { "model": "biomsofinfinity:block/shadow_altar" },
+    "lit=true": { "model": "biomsofinfinity:block/shadow_altar" }
+  }
+}

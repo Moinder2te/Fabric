@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "pattern": [
+    " C ",
+    " C ",
+    " S "
+  ],
+  "key": {
+    "C": { "item": "biomsofinfinity:crystalite_shard" },
+    "S": { "item": "biomsofinfinity:luminous_filament" }
+  },
+  "result": {
+    "item": "biomsofinfinity:crystalite_sword"
+  }
+}
