@@ -1,0 +1,14 @@
+{
+  "name": "biomsofinfinity:crystal_tower/base",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "location": "minecraft:end_city/base_plate",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

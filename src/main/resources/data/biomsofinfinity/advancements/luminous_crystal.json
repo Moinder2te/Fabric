@@ -1,0 +1,22 @@
+{
+  "parent": "biomsofinfinity:root",
+  "display": {
+    "icon": { "item": "biomsofinfinity:luminous_crystal" },
+    "title": { "translate": "advancements.biomsofinfinity.luminous.title" },
+    "description": { "translate": "advancements.biomsofinfinity.luminous.description" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_luminous": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": [ "biomsofinfinity:luminous_crystal" ] }
+        ]
+      }
+    }
+  }
+}

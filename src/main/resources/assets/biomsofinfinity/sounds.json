@@ -1,0 +1,29 @@
+{
+  "entity.shadow_king.summon": {
+    "subtitle": "subtitle.biomsofinfinity.shadow_king.summon",
+    "sounds": [
+      {
+        "name": "minecraft:entity.wither.spawn",
+        "volume": 0.8
+      }
+    ]
+  },
+  "entity.shadow_king.phase_shift": {
+    "subtitle": "subtitle.biomsofinfinity.shadow_king.phase",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.activate",
+        "volume": 0.7
+      }
+    ]
+  },
+  "block.infusion_table.ambient": {
+    "subtitle": "subtitle.biomsofinfinity.infusion_table",
+    "sounds": [
+      {
+        "name": "minecraft:block.enchanting_table.use",
+        "volume": 0.5
+      }
+    ]
+  }
+}

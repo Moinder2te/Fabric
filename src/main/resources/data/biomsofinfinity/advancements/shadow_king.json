@@ -1,0 +1,22 @@
+{
+  "parent": "biomsofinfinity:shadow_altar",
+  "display": {
+    "icon": { "item": "biomsofinfinity:shadowsteel_chestplate" },
+    "title": { "translate": "advancements.biomsofinfinity.shadow_king.title" },
+    "description": { "translate": "advancements.biomsofinfinity.shadow_king.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "defeat_shadow_king": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "biomsofinfinity:shadow_king"
+        }
+      }
+    }
+  }
+}

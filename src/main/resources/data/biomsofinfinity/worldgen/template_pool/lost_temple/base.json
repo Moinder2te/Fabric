@@ -1,0 +1,14 @@
+{
+  "name": "biomsofinfinity:lost_temple/base",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "location": "minecraft:end_city/ship",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

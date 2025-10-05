@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "biomsofinfinity:crystalite_block" }
+  ],
+  "result": {
+    "item": "biomsofinfinity:crystalite_shard",
+    "count": 4
+  }
+}

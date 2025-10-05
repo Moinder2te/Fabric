@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "biomsofinfinity:crystalite_block",
+    "biomsofinfinity:crystalite_cluster",
+    "biomsofinfinity:crystalite_ore",
+    "biomsofinfinity:shadow_altar",
+    "biomsofinfinity:infusion_table",
+    "biomsofinfinity:soul_forge",
+    "biomsofinfinity:lumina_workbench"
+  ]
+}

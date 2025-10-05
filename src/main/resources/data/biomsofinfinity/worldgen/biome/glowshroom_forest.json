@@ -1,0 +1,47 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.8,
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 5581584,
+    "sky_color": 4465407,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 9471030,
+    "foliage_color": 11878480,
+    "particle": {
+      "probability": 0.01,
+      "options": { "type": "minecraft:glow" }
+    },
+    "ambient_sound": "minecraft:ambient.warped_forest.loop"
+  },
+  "spawn_settings": {
+    "creature_spawn_probability": 0.0,
+    "spawners": {
+      "monster": [
+        { "type": "minecraft:enderman", "weight": 20, "minCount": 1, "maxCount": 4 }
+      ]
+    }
+  },
+  "carvers": {
+    "air": [],
+    "liquid": []
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_end_stone",
+      "biomsofinfinity:crystalite_ore"
+    ],
+    [],
+    [],
+    [
+      "biomsofinfinity:glowshroom_patch"
+    ],
+    []
+  ]
+}
