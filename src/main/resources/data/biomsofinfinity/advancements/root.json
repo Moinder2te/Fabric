@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "item": "biomsofinfinity:glowshroom_spore" },
+    "title": { "translate": "advancements.biomsofinfinity.root.title" },
+    "description": { "translate": "advancements.biomsofinfinity.root.description" },
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_spore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": [ "biomsofinfinity:glowshroom_spore" ] }
+        ]
+      }
+    }
+  }
+}

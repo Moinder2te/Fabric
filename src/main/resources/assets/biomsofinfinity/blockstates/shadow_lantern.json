@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "hanging=false": { "model": "biomsofinfinity:block/shadow_lantern" },
+    "hanging=true": { "model": "biomsofinfinity:block/shadow_lantern_hanging" }
+  }
+}
