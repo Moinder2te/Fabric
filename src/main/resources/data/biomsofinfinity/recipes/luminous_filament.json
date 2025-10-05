@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "biomsofinfinity:glowshroom_spore" },
+    { "item": "biomsofinfinity:luminous_crystal" }
+  ],
+  "result": {
+    "item": "biomsofinfinity:luminous_filament",
+    "count": 2
+  }
+}

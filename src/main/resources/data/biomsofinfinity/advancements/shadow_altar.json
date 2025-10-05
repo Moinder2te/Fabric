@@ -1,0 +1,22 @@
+{
+  "parent": "biomsofinfinity:luminous_crystal",
+  "display": {
+    "icon": { "item": "biomsofinfinity:shadow_heart" },
+    "title": { "translate": "advancements.biomsofinfinity.altar.title" },
+    "description": { "translate": "advancements.biomsofinfinity.altar.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": [ "biomsofinfinity:shadow_heart" ] }
+        ]
+      }
+    }
+  }
+}
