@@ -1,0 +1,11 @@
+{
+  "structures": [
+    { "structure": "biomsofinfinity:lost_temple", "weight": 1 }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 7123651,
+    "spacing": 40,
+    "separation": 18
+  }
+}

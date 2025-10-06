@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 32,
+    "xz_spread": 6,
+    "y_spread": 3,
+    "feature": {
+      "feature": "minecraft:simple_block",
+      "config": {
+        "to_place": {
+          "type": "minecraft:simple_state_provider",
+          "state": { "Name": "biomsofinfinity:glowshroom_cap" }
+        }
+      }
+    }
+  }
+}

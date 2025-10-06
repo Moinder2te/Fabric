@@ -3,24 +3,27 @@
   "id": "biomsofinfinity",
   "version": "${version}",
   "name": "Bioms of Infinity",
-  "description": "Baseline Fabric 1.21.8 setup for the Bioms of Infinity project.",
+  "description": "Expands the End dimension with new biomes, structures, bosses, and crafting systems.",
   "authors": [
-    "Project Contributors"
+    "Liam",
+    "Contributors"
   ],
-  "license": "CC0-1.0",
+  "contact": {
+    "homepage": "https://github.com/",
+    "issues": "https://github.com/"
+  },
+  "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "main": [
       "net.liam.biomsofinfinity.BiomsOfInfinityMod"
     ],
-    "fabric-datagen": [
-      "net.liam.biomsofinfinity.datagen.BiomsOfInfinityDataGenerator"
-    ]
+    "fabric-datagen": []
   },
   "depends": {
     "fabricloader": ">=0.16.9",
-    "fabric-api": "*",
     "minecraft": "~1.21.8",
-    "java": ">=21"
+    "java": ">=21",
+    "fabric-api": "*"
   }
 }
