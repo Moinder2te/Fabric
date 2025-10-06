@@ -18,7 +18,9 @@
     "main": [
       "net.liam.biomsofinfinity.BiomsOfInfinityMod"
     ],
-    "fabric-datagen": []
+    "fabric-datagen": [
+      "net.liam.biomsofinfinity.datagen.BiomsOfInfinityDataGenerator"
+    ]
   },
   "depends": {
     "fabricloader": ">=0.16.9",
