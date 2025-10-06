@@ -60,4 +60,8 @@ public final class ModBlocks {
     public static int getRegisteredBlockCount() {
         return REGISTERED_BLOCKS.size();
     }
+
+    public static Iterable<Block> getRegisteredBlocks() {
+        return REGISTERED_BLOCKS.values();
+    }
 }

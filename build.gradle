@@ -12,16 +12,41 @@ base {
 
 repositories {
     mavenCentral()
+    maven { url 'https://maven.fabricmc.net/' }
+}
+
+sourceSets {
+    main {
+        resources.srcDir("src/generated/resources")
+    }
+    create("datagen") {
+        java.srcDir("src/datagen/java")
+        compileClasspath += main.compileClasspath
+        runtimeClasspath += main.runtimeClasspath
+    }
+}
+
+configurations {
+    datagenImplementation.extendsFrom implementation
+    datagenRuntimeOnly.extendsFrom runtimeOnly
 }
 
 dependencies {
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
-    mappings loom.officialMojangMappings()
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-    modImplementation("net.fabricmc.fabric-api:fabric-api:${project.fabric_version}") {
-        exclude module: "fabric-data-generation-api-v1"
-    }
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+}
 
+
+tasks.register("datagen", JavaExec) {
+    group = "fabric"
+    description = "Runs Fabric datagen to regenerate assets and data."
+    classpath = sourceSets["datagen"].runtimeClasspath
+    mainClass = "net.fabricmc.fabric.impl.datagen.FabricDataGen"
+    jvmArgs "-Dfabric-api.datagen", "-Dfabric-api.datagen.modid=${project.archives_base_name}"
+    args "--all", "--mod", project.archives_base_name
+    outputs.dir("src/generated/resources")
 }
 
 processResources {
